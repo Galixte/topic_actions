@@ -1,10 +1,11 @@
 <?php
 /** 
 *
-* Topic Actions extension for the phpBB Forum Software package.
+* topic_actions [French]
 *
-* @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
+* @package language
+* @copyright (c) 2014 Ruslan Uzdenov (rxu)
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * French translation by Galixte (http://www.galixte.com)
 *
@@ -42,12 +43,12 @@ $lang = array_merge($lang, array(
 		'NO_ACTION_SELECTED'=> 'Aucune action sélectionnée.',
 		'NO_TIME_SET'		=> 'Action non planifiée.',
 		'DELAY'				=> 'Délais de l’action.',
-		'DELAY_EXPLAIN'		=> 'Action du sujet planifiée : %1$s sur : %2$s',
+		'DELAY_EXPLAIN'		=> 'Action planifiée sur le sujet : %1$s le %2$s',
 		'SELECT_ACTION'		=> 'Sélectionner l’action',
 		'DELETE_ACTION'		=> 'Supprimer l’action',
-		'TOPIC_ACTION_PERFORMED'=> 'Action réalisée avec succès.',
-		'TOPIC_ACTION_SET'	=> 'Temps d’action paramétré avec succès.',
-		'TOPIC_ACTION_DELETED'	=> 'Temps d’action supprimé avec succès.',
+		'TOPIC_ACTION_PERFORMED'=> 'Planification de l’action réalisée avec succès.',
+		'TOPIC_ACTION_SET'	=> 'Planification de l’action paramétrée avec succès.',
+		'TOPIC_ACTION_DELETED'	=> 'Planification de l’action supprimée avec succès.',
 		'TIME'				=> array(
 			'0'		=> 'Maintenant',
 			'1'		=> 'dans un jour',
@@ -58,9 +59,9 @@ $lang = array_merge($lang, array(
 			'30'	=> 'dans un mois'
 		),
 		'TYPE'	=> array(
-			'RECYCLE'		=> 'Programme supprimé',
-			'RECYCLE_LOCK'	=> 'Programme supprimé (avec verrouillage)',
-			'DELETE'		=> 'Supprimer',
+			'RECYCLE'		=> 'Supprimer (avec restauration possible)',
+			'RECYCLE_LOCK'	=> 'Supprimer et verrouiller (avec restauration possible)',
+			'DELETE'		=> 'Supprimer définitivement',
 /*			'FORK'			=> 'Copier',
 			'LOCK'			=> 'Verrouiller',
 			'UNLOCK'		=> 'Déverrouiller',
